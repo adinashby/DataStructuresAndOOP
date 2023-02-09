@@ -165,7 +165,7 @@ public class Week3Part1MultiExample {
 
         int sum = sumOfPrimaryDiagonal + sumOfSecondaryDiagonal;
 
-        if (theArray.length % 2 != 0)
+        if (theArray.length % 2 != 1)
             sum -= theArray[theArray.length/2][theArray.length/2];
             System.out.println("total sum:" + sum);
     }
