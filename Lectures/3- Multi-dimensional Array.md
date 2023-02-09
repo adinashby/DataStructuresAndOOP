@@ -135,6 +135,8 @@ public static void increaseValue(double[][] numss, double value) {
 
 ## 5 Some Examples
 
+![](imgs/Chapter2/multiExample.png)
+
 ```java
 /**
  *
@@ -144,9 +146,9 @@ public class Week3Part1MultiExample {
     public static void main(String[] args) {
 
         int[][] theArray = {
-            {1, 2, 3, 4}, 
-            {5, 6, 7, 8}, 
-            {9, 10, 11, 12}, 
+            {1, 2, 3, 4},
+            {5, 6, 7, 8},
+            {9, 10, 11, 12},
             {13, 14, 15, 16}
         };
 
