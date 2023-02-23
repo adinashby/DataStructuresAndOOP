@@ -13,7 +13,7 @@ List<Integer> nums = Arrays.asList(new Integer[]{1, 3, 4, 2});
 Collections.sort(nums);			// 1, 2, 3, 4
 
 // revere the order of the data
-Collections.reverse();			// 4, 3, 2, 1
+Collections.reverse(nums);			// 4, 3, 2, 1
 ```
 
 You can also use these methods to sort Strings, then the strings will be alphabetically sorted (also can be ascendingly and descendingly).
